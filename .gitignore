@@ -1,0 +1,14 @@
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+# environment variables
+.env
+.env*
+
+# output from tool
+output/

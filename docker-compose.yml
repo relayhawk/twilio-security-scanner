@@ -1,0 +1,10 @@
+services:
+  twilio_scanner:
+    build: ./twilio_security_scanner
+    env_file: .env
+    volumes:
+      - ./output:/app/output
+    command: python -m twilio_security_scanner.cli -o /app/output/scan_results.csv
+
+volumes:
+  output:
