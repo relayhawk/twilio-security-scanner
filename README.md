@@ -1,3 +1,5 @@
+Read the full blog post [here.](https://www.relayhawk.com/blog/twilio-security)
+
 # Twilio Security Scanner
 
 A security scanning tool for Twilio accounts that helps detect misconfigurations and security risks, including:
